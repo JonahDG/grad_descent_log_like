@@ -1,0 +1,17 @@
+[project]
+name = "grad-descent-log-like"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JonahDG", email = "jdgoldfine@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+grad-descent-log-like = "grad_descent_log_like:main"
+
+[build-system]
+requires = ["uv_build>=0.8.22,<0.9.0"]
+build-backend = "uv_build"
